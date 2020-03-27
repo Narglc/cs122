@@ -7,6 +7,13 @@ tar -zcvf name.tar.gz path_and_files	# 打包
 tar -zxvf name.tar.gz					# 解包
 ```
 
+## GDB
+```
+gcc -g menu.c -o demo
+```
+
+---
+
 ## 代码风格
 - 缩进：4个空格（严格执行）
 - 行宽：<100个字符
@@ -28,3 +35,9 @@ tar -zxvf name.tar.gz					# 解包
 
 ## "开-闭"原则
 > 对于扩展开放，对于修改封闭
+
+## 如何复用？
+> 模块复用&系统复用
+> 业务逻辑逻辑层 & 数据存储层
+
+## 将系统模块放在不同的源文件中
