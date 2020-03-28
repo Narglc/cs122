@@ -19,7 +19,7 @@ typedef struct DataNode{
 tDataNode* FindCmd(tDataNode* head, char* cmd)
 {
 	if(NULL == head || NULL == cmd)
-		return NULL;
+		return NULL:
 	tDataNode *p = head;
 	while(NULL != p)
 	{
